@@ -4,7 +4,7 @@ background-color: #ff010f;
 background-size: auto;
 color: black;
 text-align: center;
-background-position: center;
+background-origin: padding-box;
 
 }
 
