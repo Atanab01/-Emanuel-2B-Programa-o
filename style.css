@@ -101,3 +101,111 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+/* Estilo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho da página */
+header {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Estilo do menu de sabores */
+.menu {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Estilo do formulário de pedido */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select {
+    background-color: #f8f8f8;
+}
+
+button {
+    grid-column: span 2;
+    background-color: #ffb333;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+/* Estilo do rodapé da página */
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilo do link de contato no rodapé */
+footer a {
+    color: #ffb333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
