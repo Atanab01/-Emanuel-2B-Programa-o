@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorveteria Delícia Gelada</title>
+    <title>Heisenberg Sorvetes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Sorveteria Delícia Gelada</h1>
-        <p>Levamos os sorvetes mais deliciosos até a sua porta!</p>
+        <h1>Heisenberg Sorvetes</h1>
+        <p>Deliciosos sabores artesanais em Chopinzinho, Paraná.</p>
     </header>
 
     <section class="menu">
         <h2>Menu de Sabores</h2>
         <ul>
-            <li><span>1.</span> Sorvete de Chocolate</li>
-            <li><span>2.</span> Sorvete de Morango</li>
-            <li><span>3.</span> Sorvete de Baunilha</li>
-            <li><span>4.</span> Sorvete de Creme</li>
-            <li><span>5.</span> Sorvete de Framboesa</li>
-            <li><span>6.</span> Sorvete de Manga</li>
+            <li><span>1.</span> Blue Ice</li>
+            <li><span>2.</span> Menta</li>
+            <li><span>3.</span> Chiclete</li>
         </ul>
     </section>
 
@@ -35,23 +32,27 @@
 
             <label for="sabor">Escolha um sabor:</label>
             <select id="sabor" name="sabor">
-                <option value="chocolate">Sorvete de Chocolate</option>
-                <option value="morango">Sorvete de Morango</option>
-                <option value="baunilha">Sorvete de Baunilha</option>
-                <option value="creme">Sorvete de Creme</option>
-                <option value="framboesa">Sorvete de Framboesa</option>
-                <option value="manga">Sorvete de Manga</option>
+                <option value="blue-ice">Blue Ice</option>
+                <option value="menta">Menta</option>
+                <option value="chiclete">Chiclete</option>
             </select>
 
             <label for="quantidade">Quantidade:</label>
             <input type="number" id="quantidade" name="quantidade" min="1" required>
+
+            <label for="pagamento">Método de Pagamento:</label>
+            <select id="pagamento" name="pagamento">
+                <option value="cartao">Cartão de Crédito</option>
+                <option value="dinheiro">Dinheiro</option>
+            </select>
 
             <button type="submit">Fazer Pedido</button>
         </form>
     </section>
 
     <footer>
-        <p>Entre em contato conosco: contato@deliciagelada.com</p>
+        <p>Entre em contato conosco: contato@heisenbergsorvetes.com</p>
+        <p>Localizado em Chopinzinho, Paraná</p>
     </footer>
 </body>
 </html>

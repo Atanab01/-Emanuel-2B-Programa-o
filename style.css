@@ -1,14 +1,14 @@
-/* Adicionando estilo à fonte do corpo da página */
+/* Estilo do corpo da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
 }
 
-/* Estilizando o cabeçalho da página */
+/* Estilo do cabeçalho da página */
 header {
-    background-color: #ffb333;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 40px 0;
@@ -24,7 +24,7 @@ p {
     font-size: 18px;
 }
 
-/* Estilizando o menu de sabores */
+/* Estilo do menu de sabores */
 .menu {
     max-width: 800px;
     margin: 20px auto;
@@ -49,7 +49,7 @@ li {
     font-size: 18px;
 }
 
-/* Estilizando o formulário de pedido */
+/* Estilo do formulário de pedido */
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,7 +83,7 @@ button:hover {
     background-color: #ff9900;
 }
 
-/* Estilizando o rodapé da página */
+/* Estilo do rodapé da página */
 footer {
     text-align: center;
     background-color: #333;
@@ -91,7 +91,7 @@ footer {
     padding: 20px 0;
 }
 
-/* Adicionando estilo ao link de contato no rodapé */
+/* Estilo do link de contato no rodapé */
 footer a {
     color: #ffb333;
     text-decoration: none;
