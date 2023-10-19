@@ -3,18 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Sorveteria Delícia Gelada</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Site</h1>
+        <h1>Sorveteria Delícia Gelada</h1>
+        <p>Levamos os sorvetes mais deliciosos até a sua porta!</p>
     </header>
-    <main>
-        <section>
-            <p>Este é um exemplo de site simples criado com HTML e CSS.</p>
-            <a href="#">Saiba mais</a>
-        </section>
-    </main>
+
+    <section class="menu">
+        <h2>Menu de Sabores</h2>
+        <ul>
+            <li><span>1.</span> Sorvete de Chocolate</li>
+            <li><span>2.</span> Sorvete de Morango</li>
+            <li><span>3.</span> Sorvete de Baunilha</li>
+            <li><span>4.</span> Sorvete de Creme</li>
+            <li><span>5.</span> Sorvete de Framboesa</li>
+            <li><span>6.</span> Sorvete de Manga</li>
+        </ul>
+    </section>
+
+    <section class="order">
+        <h2>Faça seu Pedido</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="endereco">Endereço de Entrega:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="sabor">Escolha um sabor:</label>
+            <select id="sabor" name="sabor">
+                <option value="chocolate">Sorvete de Chocolate</option>
+                <option value="morango">Sorvete de Morango</option>
+                <option value="baunilha">Sorvete de Baunilha</option>
+                <option value="creme">Sorvete de Creme</option>
+                <option value="framboesa">Sorvete de Framboesa</option>
+                <option value="manga">Sorvete de Manga</option>
+            </select>
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" min="1" required>
+
+            <button type="submit">Fazer Pedido</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Entre em contato conosco: contato@deliciagelada.com</p>
+    </footer>
 </body>
 </html>
