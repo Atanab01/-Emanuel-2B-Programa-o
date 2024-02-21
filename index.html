@@ -1,58 +1,117 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heisenberg Sorvetes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hardware Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h2 {
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            margin-bottom: 10px;
+        }
+
+        .product button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Heisenberg Sorvetes</h1>
-        <p>Deliciosos sabores artesanais em Chopinzinho, Paraná.</p>
+        <h1>Hardware Online Store</h1>
     </header>
 
-    <section class="menu">
-        <h2>Menu de Sabores</h2>
+    <nav>
         <ul>
-            <li><span>1.</span> Blue Ice</li>
-            <li><span>2.</span> Menta</li>
-            <li><span>3.</span> Chiclete</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Shopping Cart</a></li>
+            <li><a href="#">Checkout</a></li>
         </ul>
-    </section>
+    </nav>
 
-    <section class="order">
-        <h2>Faça seu Pedido</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+    <div class="container">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Product 1 description</p>
+            <p>$19.99</p>
+            <button>Add to Cart</button>
+        </div>
 
-            <label for="endereco">Endereço de Entrega:</label>
-            <input type="text" id="endereco" name="endereco" required>
-
-            <label for="sabor">Escolha um sabor:</label>
-            <select id="sabor" name="sabor">
-                <option value="blue-ice">Blue Ice</option>
-                <option value="menta">Menta</option>
-                <option value="chiclete">Chiclete</option>
-            </select>
-
-            <label for="quantidade">Quantidade:</label>
-            <input type="number" id="quantidade" name="quantidade" min="1" required>
-
-            <label for="pagamento">Método de Pagamento:</label>
-            <select id="pagamento" name="pagamento">
-                <option value="cartao">Cartão de Crédito</option>
-                <option value="dinheiro">Dinheiro</option>
-            </select>
-
-            <button type="submit">Fazer Pedido</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>Entre em contato conosco: contato@heisenbergsorvetes.com</p>
-        <p>Localizado em Chopinzinho, Paraná</p>
-    </footer>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Product 2 description</p>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
 </body>
 </html>
